@@ -1,14 +1,23 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="TruckingProject.styles.css" asp-append-version="true" />
     <title></title>
 </head>
 <body>
+
+    <div class="bar">
+        <a href="htmlpage.html">Home</a>
+        <a href="secondpage.html">Route Planner</a>
+        <a href="#">NOAA Data</a>
+        <a href="#">TBD</a>
+    </div>
+
     <h1>Plan your route today!</h1>
     <h2>Use our innovative tool to take charge of your shipping process!</h2>
 
@@ -34,24 +43,24 @@
         </tbody>
     </table>
 
-   <script>   
+    <script>
 
-       const x = document.getElementById("found-lat");
-       const y = document.getElementById("found-long");
+        const x = document.getElementById("found-lat");
+        const y = document.getElementById("found-long");
 
-       function obtainCoordinates() {
-           if (navigator.geolocation) {
-               navigator.geolocation.getCurrentPosition(showPosition);
-           } else {
-               alert("Error!")
-           }
-       }
+        function obtainCoordinates() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                alert("Error!")
+            }
+        }
 
-       function showPosition(position) {
-           x.innerHTML = position.coords.latitude;
-           y.innerHTML = position.coords.longitude;
-       }
-   </script>
+        function showPosition(position) {
+            x.innerHTML = position.coords.latitude;
+            y.innerHTML = position.coords.longitude;
+        }
+    </script>
 
 </body>
 </html>

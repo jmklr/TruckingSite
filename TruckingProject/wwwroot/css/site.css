@@ -6,6 +6,25 @@ body {
     background-color: #002855;
 }
 
+.bar {
+    background-color: #EAAA00;
+    overflow: hidden;
+}
+
+.bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bar a:hover {
+    background-color: #F7F7F7;
+    color: dimgrey;
+}
+
 .table-style {
     border: 4px solid #EAAA00;
     border-style: solid;
@@ -14,8 +33,26 @@ body {
     text-align: center;
 }
 
+.list-header {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+li {
+    display: inline-block;
+    margin-right: 0px;
+    box-sizing: inherit;
+}
+
 th, td {
     border: 4px solid #EAAA00;
+    padding: 5px;
 }
 
 
