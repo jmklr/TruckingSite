@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+    <title></title>
+
+
+    <script>
+        const location = document.getElementById("coords")
+
+        function retrieveCoordinates() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            }
+            else {
+                    x.innerHTML = "Error!";
+            }
+        }
+
+        function showCoordinates(position) {
+            x.innerHTML = "Lat: " + position.coords.latitude + "<br> Long: " + position.coords.longitude;
+        }
+    </script>
+</head>
+<body>
+    <h1>Plan your route today!</h1>
+    <h2>Use our innovative tool to take charge of your shipping process!</h2>
+
+    <p><strong>TOOL IS A WORK IN PROGRESS</strong></p>
+    <div align="center">
+        <button onclick="retrieveCoordinates()">Find your coordinates!</button>
+    </div>
+
+    
+</body>
+</html>

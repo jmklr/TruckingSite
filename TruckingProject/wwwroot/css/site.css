@@ -6,17 +6,21 @@ body {
     background-color: #002855;
 }
 
-table, th, td {
+.table-style {
     border: 4px solid #EAAA00;
     color: #F7F7F7;
     padding: 5px;
     text-align: center;
 }
 
+
 h1, h2, h3, h4, h5, h6, p {
     color: #F7F7F7;
     text-align: center;
 }
+
+
+
 
 @media (min-width: 768px) {
   html {
