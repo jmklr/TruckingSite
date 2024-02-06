@@ -2,28 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
     <title></title>
-
-
-    <script>
-        const location = document.getElementById("coords")
-
-        function retrieveCoordinates() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition);
-            }
-            else {
-                    x.innerHTML = "Error!";
-            }
-        }
-
-        function showCoordinates(position) {
-            x.innerHTML = "Lat: " + position.coords.latitude + "<br> Long: " + position.coords.longitude;
-        }
-    </script>
 </head>
 <body>
     <h1>Plan your route today!</h1>
@@ -31,9 +14,28 @@
 
     <p><strong>TOOL IS A WORK IN PROGRESS</strong></p>
     <div align="center">
-        <button onclick="retrieveCoordinates()">Find your coordinates!</button>
+        <button onclick="obtainCoordinates()">Find your coordinates!</button>
     </div>
 
-    
+    <p id="found-coordinates"></p>
+
+   <script>   
+
+       const x = document.getElementById("found-coordinates");
+
+       function obtainCoordinates() {
+           if (navigator.geolocation) {
+               navigator.geolocation.getCurrentPosition(showPosition);
+           } else {
+               alert("Error!")
+           }
+       }
+
+       function showPosition(position) {
+           x.innerHTML = "Latitude: " + position.coords.latitude +
+               "<br>Longitude: " + position.coords.longitude;
+       }
+   </script>
+
 </body>
 </html>
