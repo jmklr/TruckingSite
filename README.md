@@ -1,4 +1,4 @@
-# TruckingProject
+# Trucking Project
 
 Truckin' is a site that aims to directly aid the trucking and shipping industry.
 
