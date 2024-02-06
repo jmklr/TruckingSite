@@ -19,9 +19,25 @@
 
     <p id="found-coordinates"></p>
 
+    <table align="center" class="table-style">
+        <thead>
+            <tr>
+                <td>Latitude</td>
+                <td>Longitude</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><p id="found-lat"></p></td>
+                <td><p id="found-long"></p></td>
+            </tr>
+        </tbody>
+    </table>
+
    <script>   
 
-       const x = document.getElementById("found-coordinates");
+       const x = document.getElementById("found-lat");
+       const y = document.getElementById("found-long");
 
        function obtainCoordinates() {
            if (navigator.geolocation) {
@@ -32,8 +48,8 @@
        }
 
        function showPosition(position) {
-           x.innerHTML = "Latitude: " + position.coords.latitude +
-               "<br>Longitude: " + position.coords.longitude;
+           x.innerHTML = position.coords.latitude;
+           y.innerHTML = position.coords.longitude;
        }
    </script>
 
