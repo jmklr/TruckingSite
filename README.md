@@ -18,6 +18,9 @@ Reliability is key in industries like e-commerce especially with their high use 
 
 ## htmlpage.html - the main page
 
+![image](https://github.com/jmklr/TruckingSite/assets/142524952/6e38ca4d-d3f2-4452-8783-b78b830f14f2)
+
+
 This page serves as a "home" page for the site! It shares a navbar at the top with all other pages to provide optimal usability. The page features a prominent button to direct users towards the route planning application. It gives brief breakdowns of relevant applications of the site and why it should be used.
 
 ## secondpage.html - the route planning application
