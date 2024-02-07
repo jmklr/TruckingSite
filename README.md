@@ -82,10 +82,15 @@ Many future pages will be included. Some ideas for future pages include a page f
 # Citations
 
 Bootstrap Buttons: https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_button_styles&stacked=h
+
 Color Palette: https://universityrelations.wvu.edu/brand-guide/color
+
 E-Mail Form Idea: https://www.w3schools.com/bootstrap5/bootstrap_forms.php
+
 JavaScript Geolocation Idea and Script: https://www.w3schools.com/js/js_api_geolocation.asp
+
 NavBar Idea and Some Lines of Code: https://www.w3schools.com/css/css_navbar.asp
 
 https://github.com/joshuatmeadows/MIST353ClassExample
+
 https://github.com/joshuatmeadows/MIST353-TravelSite
