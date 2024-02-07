@@ -16,7 +16,7 @@ Reliability is key in industries like e-commerce especially with their high use 
 
 # Page Descriptions
 
-## htmlpage.html - the main page
+## [Main Page](Index.cshtml)
 
 ![image](https://github.com/jmklr/TruckingSite/assets/142524952/6e38ca4d-d3f2-4452-8783-b78b830f14f2)
 
