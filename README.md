@@ -94,3 +94,7 @@ NavBar Idea and Some Lines of Code: https://www.w3schools.com/css/css_navbar.asp
 https://github.com/joshuatmeadows/MIST353ClassExample
 
 https://github.com/joshuatmeadows/MIST353-TravelSite
+
+# Reflectionon Resources
+
+Code used as an example in-class provided a very strong foundation for building the site, but didn't go further than the basics. This was beneficial as it gave me a lot of creative liberty and didn't make me feel boxed-in when developing my idea or the initial code. W3Schools provided a lot of interactive tools that helped build on the foundation I created using course materials. Many of my ideas were built on tutorials provided on the W3 site. I think this is a tool I'll use extensively throughout the development of this site and future individual projects. There were some difficulties with syntax in these tutorials, but some basic troubleshooting fixed these issues. Overall, information gathering was smooth with the exception of GitHub repos, as most people aren't going to create a tool that is already a part of many sites such as Google Maps or Mapquest. 
