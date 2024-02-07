@@ -25,9 +25,15 @@ This page serves as a "home" page for the site! It shares a navbar at the top wi
 
 ## secondpage.html - the route planning application
 
+![image](https://github.com/jmklr/TruckingSite/assets/142524952/3fbb82f4-dbbd-44f2-8db1-d53a39220003)
+
+
 secondpage.html will be used for the route planning application. The name is entirely tentative. The page is very bare bones at the moment, with it's only true functionality being using JavaScript to find the latitude and longitude of the user and outputting it into a table. 
 
 ## signup.html - user signup page
+
+![image](https://github.com/jmklr/TruckingSite/assets/142524952/57487fe8-0430-4038-868a-dd4aa77df165)
+
 
 signup.html is a simple page that will stay simple when entirely fleshed out. Right now it just gives a prompt for a user to give their e-mail for update e-mails. 
 
