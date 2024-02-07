@@ -23,14 +23,14 @@ Reliability is key in industries like e-commerce especially with their high use 
 
 This page serves as a "home" page for the site! It shares a navbar at the top with all other pages to provide optimal usability. The page features a prominent button to direct users towards the route planning application. It gives brief breakdowns of relevant applications of the site and why it should be used.
 
-## secondpage.html - the route planning application
+## [Route Planner Page](/TruckingProject/Pages/RoutePlanner.cshtml)
 
 ![image](https://github.com/jmklr/TruckingSite/assets/142524952/3fbb82f4-dbbd-44f2-8db1-d53a39220003)
 
 
 secondpage.html will be used for the route planning application. The name is entirely tentative. The page is very bare bones at the moment, with it's only true functionality being using JavaScript to find the latitude and longitude of the user and outputting it into a table. 
 
-## signup.html - user signup page
+## [User Sign-Up Page](/TruckingProject/Pages/SignUp.cshtml)
 
 ![image](https://github.com/jmklr/TruckingSite/assets/142524952/57487fe8-0430-4038-868a-dd4aa77df165)
 
