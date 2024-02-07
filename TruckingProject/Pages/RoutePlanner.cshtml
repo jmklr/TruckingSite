@@ -1,0 +1,56 @@
+﻿@page
+@model TruckingProject.Pages.RoutePlannerModel
+@{
+}
+<div class="bar">
+    <a href="Index" style="float:left">Home</a>
+    <a href="RoutePlanner" style="float:left">Route Planner</a>
+    <a href="#" style="float:left">NOAA Data</a>
+    <a href="SignUp" style="float:left">Sign up for updates!</a>
+    <input type="text" style="float:right" placeholder="Search" />
+</div>
+
+
+<h1>Plan your route today!</h1>
+<h2>Use our innovative tool to take charge of your shipping process!</h2>
+
+<p><strong>TOOL IS A WORK IN PROGRESS</strong></p>
+<div align="center">
+    <button onclick="obtainCoordinates()">Find your coordinates!</button>
+</div>
+
+<p id="found-coordinates"></p>
+
+<table align="center" class="table-style">
+    <thead>
+        <tr>
+            <td>Latitude</td>
+            <td>Longitude</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p id="found-lat"></p></td>
+            <td><p id="found-long"></p></td>
+        </tr>
+    </tbody>
+</table>
+
+<script>
+
+    const x = document.getElementById("found-lat");
+    const y = document.getElementById("found-long");
+
+    function obtainCoordinates() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            alert("Error!")
+        }
+    }
+
+    function showPosition(position) {
+        x.innerHTML = position.coords.latitude;
+        y.innerHTML = position.coords.longitude;
+    }
+</script>
