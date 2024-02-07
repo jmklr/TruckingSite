@@ -60,3 +60,32 @@ This repo is built on Google Maps API which could be a useful API to use in the 
 ## https://github.com/roxyvaught/Vacation-Planner/blob/master/README.md
 
 This repo has a lot of features that have direct applications to Truckin' even if it has a widlly different purpose. This repo is a similar site built to plan trips to the National Parks. A lot of these features could be flipped into planning trips to/from major shipping warehouses and can show climate data. 
+
+# Future Enhancements
+
+## Main Page
+
+The main page will likely see many enhancements in the near future. The main page, as well as every other page on the site, will feature a functional search bar in the navbar. The Main Page could include many new features in the future, including, but not limited to, a preview of the route planning functionality, recent routes, climate in popular destinations, or relevant news.
+
+## Route Planning Page
+
+The route planning page will be expanded upon the most in the future. Future developments will include features like a map, reverse geolocation, plotting routes, and changing route options. All of these features and more will combine to make a fully functional route planning tool.
+
+## Signup Page
+
+This page will likely either be developed to be fully functional or converted into a page where users can create accounts for the site.
+
+## Future Pages
+
+Many future pages will be included. Some ideas for future pages include a page fully dedicated to displaying relevant climate data, a page that features popular stops, and a page that shows previous routes.
+
+# Citations
+
+Bootstrap Buttons: https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_button_styles&stacked=h
+Color Palette: https://universityrelations.wvu.edu/brand-guide/color
+E-Mail Form Idea: https://www.w3schools.com/bootstrap5/bootstrap_forms.php
+JavaScript Geolocation Idea and Script: https://www.w3schools.com/js/js_api_geolocation.asp
+NavBar Idea and Some Lines of Code: https://www.w3schools.com/css/css_navbar.asp
+
+https://github.com/joshuatmeadows/MIST353ClassExample
+https://github.com/joshuatmeadows/MIST353-TravelSite
