@@ -1,6 +1,6 @@
 # Trucking Project
 
-Project Overview
+#Project Overview
 
 Truckin' is a site that aims to directly aid the trucking and shipping industry.
 
@@ -14,7 +14,7 @@ Reliability is key in industries like e-commerce especially with their high use 
 |     2|Enabling truckers to coordinate stops along their route at optimal times|
 |     3|Helping truckers visualize their routes in an easy-to-digest format |
 
-Page Descriptions
+#Page Descriptions
 
 htmlpage.html - the main page
 
@@ -27,7 +27,7 @@ signup.html - user signup page
 
 signup.html is a simple page that will stay simple when entirely fleshed out. Right now it just gives a prompt for a user to give their e-mail for update e-mails. 
 
-Research Summary
+#Research Summary
 
 Research for this project led me to a few sites and repositories:
 
